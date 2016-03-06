@@ -4,9 +4,15 @@
   "description": "API Dictionary Application using koa",
   "main": "index.js",
   "dependencies": {
+    "co-monk": "^1.0.0",
+    "compress": "^0.99.0",
     "koa": "^1.2.0",
+    "koa-better-ratelimit": "^2.1.2",
+    "koa-logger": "^1.3.0",
     "koa-mount": "^1.3.0",
-    "koa-router": "^5.4.0"
+    "koa-router": "^5.4.0",
+    "mongodb": "^1.4.40",
+    "monk": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
